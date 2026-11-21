@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="340" viewBox="0 0 1200 340" role="img" aria-label="Method of work: extract, verify, synthesise, test, publish">
+<title>Method of work: extract, verify, synthesise, test, publish</title>
+<rect x="1" y="1" width="1198" height="338" rx="18" fill="#F5EEE1" stroke="#D9CDB9" stroke-width="2"/>
+<rect x="10" y="10" width="1180" height="320" rx="12" fill="none" stroke="#D9CDB9" stroke-width="1"/>
+<text x="600" y="54" font-family="Georgia, 'Times New Roman', Times, serif" font-size="28" fill="#2A2420" text-anchor="middle" font-weight="normal" font-style="normal" letter-spacing="0">Method of work</text>
+<rect x="44" y="84" width="200" height="176" rx="12" fill="#FBF7EF" stroke="#1F5FA8" stroke-width="2.5"/>
+<circle cx="74" cy="116" r="16" fill="#1F5FA8"/>
+<text x="74" y="122" font-family="Georgia, 'Times New Roman', Times, serif" font-size="17" fill="#F5EEE1" text-anchor="middle" font-weight="bold" font-style="normal" letter-spacing="0">1</text>
+<text x="100" y="123" font-family="Georgia, 'Times New Roman', Times, serif" font-size="21" fill="#2A2420" text-anchor="start" font-weight="normal" font-style="normal" letter-spacing="0">Extract</text>
+<rect x="192" y="102" width="38" height="24" rx="12" fill="#1F5FA8"/>
+<text x="211" y="119" font-family="Georgia, 'Times New Roman', Times, serif" font-size="14" fill="#F5EEE1" text-anchor="middle" font-weight="bold" font-style="normal" letter-spacing="0">AI</text>
+<path transform="translate(186,100) scale(0.6)" d="M0,-10 Q0,0 10,0 Q0,0 0,10 Q0,0 -10,0 Q0,0 0,-10 Z" fill="#C08A1E"/>
+<text x="62" y="160" font-family="Georgia, 'Times New Roman', Times, serif" font-size="15" fill="#6E6258" text-anchor="start" font-weight="normal" font-style="normal" letter-spacing="0">every occurrence of a</text>
+<text x="62" y="181" font-family="Georgia, 'Times New Roman', Times, serif" font-size="15" fill="#6E6258" text-anchor="start" font-weight="normal" font-style="normal" letter-spacing="0">term in the digitised</text>
+<text x="62" y="202" font-family="Georgia, 'Times New Roman', Times, serif" font-size="15" fill="#6E6258" text-anchor="start" font-weight="normal" font-style="normal" letter-spacing="0">corpora</text>
+<line x1="62" y1="222" x2="226" y2="222" stroke="#D9CDB9"/>
+<text x="144.0" y="245" font-family="Georgia, 'Times New Roman', Times, serif" font-size="13" fill="#1F5FA8" text-anchor="middle" font-weight="normal" font-style="italic" letter-spacing="0">TLG · PHI · Perseus · ToposText</text>
+<path d="M249,172.0 h20 m-7,-6 l7,6 l-7,6" fill="none" stroke="#2A2420" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="276" y="84" width="200" height="176" rx="12" fill="#FBF7EF" stroke="#D9CDB9" stroke-width="2"/>
+<circle cx="306" cy="116" r="16" fill="#2A2420"/>
+<text x="306" y="122" font-family="Georgia, 'Times New Roman', Times, serif" font-size="17" fill="#F5EEE1" text-anchor="middle" font-weight="bold" font-style="normal" letter-spacing="0">2</text>
+<text x="332" y="123" font-family="Georgia, 'Times New Roman', Times, serif" font-size="21" fill="#2A2420" text-anchor="start" font-weight="normal" font-style="normal" letter-spacing="0">Verify</text>
+<text x="294" y="160" font-family="Georgia, 'Times New Roman', Times, serif" font-size="15" fill="#6E6258" text-anchor="start" font-weight="normal" font-style="normal" letter-spacing="0">each passage against</text>
+<text x="294" y="181" font-family="Georgia, 'Times New Roman', Times, serif" font-size="15" fill="#6E6258" text-anchor="start" font-weight="normal" font-style="normal" letter-spacing="0">the critical edition</text>
+<line x1="294" y1="222" x2="458" y2="222" stroke="#D9CDB9"/>
+<text x="376.0" y="245" font-family="Georgia, 'Times New Roman', Times, serif" font-size="13" fill="#6E6258" text-anchor="middle" font-weight="normal" font-style="italic" letter-spacing="0">to be confirmed → ✔</text>
+<path d="M481,172.0 h20 m-7,-6 l7,6 l-7,6" fill="none" stroke="#2A2420" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="508" y="84" width="200" height="176" rx="12" fill="#FBF7EF" stroke="#D9CDB9" stroke-width="2"/>
+<circle cx="538" cy="116" r="16" fill="#2A2420"/>
+<text x="538" y="122" font-family="Georgia, 'Times New Roman', Times, serif" font-size="17" fill="#F5EEE1" text-anchor="middle" font-weight="bold" font-style="normal" letter-spacing="0">3</text>
+<text x="564" y="123" font-family="Georgia, 'Times New Roman', Times, serif" font-size="21" fill="#2A2420" text-anchor="start" font-weight="normal" font-style="normal" letter-spacing="0">Synthesise</text>
+<text x="526" y="160" font-family="Georgia, 'Times New Roman', Times, serif" font-size="15" fill="#6E6258" text-anchor="start" font-weight="normal" font-style="normal" letter-spacing="0">the state of the art</text>
+<text x="526" y="181" font-family="Georgia, 'Times New Roman', Times, serif" font-size="15" fill="#6E6258" text-anchor="start" font-weight="normal" font-style="normal" letter-spacing="0">on identifications,</text>
+<text x="526" y="202" font-family="Georgia, 'Times New Roman', Times, serif" font-size="15" fill="#6E6258" text-anchor="start" font-weight="normal" font-style="normal" letter-spacing="0">quoting the authors</text>
+<path d="M713,172.0 h20 m-7,-6 l7,6 l-7,6" fill="none" stroke="#2A2420" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="740" y="84" width="200" height="176" rx="12" fill="#FBF7EF" stroke="#D9CDB9" stroke-width="2"/>
+<circle cx="770" cy="116" r="16" fill="#2A2420"/>
+<text x="770" y="122" font-family="Georgia, 'Times New Roman', Times, serif" font-size="17" fill="#F5EEE1" text-anchor="middle" font-weight="bold" font-style="normal" letter-spacing="0">4</text>
+<text x="796" y="123" font-family="Georgia, 'Times New Roman', Times, serif" font-size="21" fill="#2A2420" text-anchor="start" font-weight="normal" font-style="normal" letter-spacing="0">Test</text>
+<text x="758" y="160" font-family="Georgia, 'Times New Roman', Times, serif" font-size="15" fill="#6E6258" text-anchor="start" font-weight="normal" font-style="normal" letter-spacing="0">low- and medium-</text>
+<text x="758" y="181" font-family="Georgia, 'Times New Roman', Times, serif" font-size="15" fill="#6E6258" text-anchor="start" font-weight="normal" font-style="normal" letter-spacing="0">certainty entries a</text>
+<text x="758" y="202" font-family="Georgia, 'Times New Roman', Times, serif" font-size="15" fill="#6E6258" text-anchor="start" font-weight="normal" font-style="normal" letter-spacing="0">laboratory can settle</text>
+<path d="M945,172.0 h20 m-7,-6 l7,6 l-7,6" fill="none" stroke="#2A2420" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="972" y="84" width="200" height="176" rx="12" fill="#FBF7EF" stroke="#D9CDB9" stroke-width="2"/>
+<circle cx="1002" cy="116" r="16" fill="#2A2420"/>
+<text x="1002" y="122" font-family="Georgia, 'Times New Roman', Times, serif" font-size="17" fill="#F5EEE1" text-anchor="middle" font-weight="bold" font-style="normal" letter-spacing="0">5</text>
+<text x="1028" y="123" font-family="Georgia, 'Times New Roman', Times, serif" font-size="21" fill="#2A2420" text-anchor="start" font-weight="normal" font-style="normal" letter-spacing="0">Publish</text>
+<text x="990" y="160" font-family="Georgia, 'Times New Roman', Times, serif" font-size="15" fill="#6E6258" text-anchor="start" font-weight="normal" font-style="normal" letter-spacing="0">the revised entries</text>
+<text x="990" y="181" font-family="Georgia, 'Times New Roman', Times, serif" font-size="15" fill="#6E6258" text-anchor="start" font-weight="normal" font-style="normal" letter-spacing="0">with their history</text>
+<line x1="990" y1="222" x2="1154" y2="222" stroke="#D9CDB9"/>
+<text x="1072.0" y="245" font-family="Georgia, 'Times New Roman', Times, serif" font-size="13" fill="#6E6258" text-anchor="middle" font-weight="normal" font-style="italic" letter-spacing="0">versioning</text>
+<path d="M1072.0,264 V294 H144.0 V270" fill="none" stroke="#6E6258" stroke-width="2" stroke-dasharray="6 5"/>
+<path d="M138.0,276 l6,-8 l6,8" fill="none" stroke="#6E6258" stroke-width="2" stroke-linejoin="round"/>
+<rect x="395" y="281" width="410" height="26" fill="#F5EEE1"/>
+<text x="600" y="299" font-family="Georgia, 'Times New Roman', Times, serif" font-size="15" fill="#6E6258" text-anchor="middle" font-weight="normal" font-style="italic" letter-spacing="0">a living work: each project adds or corrects entries</text>
+
+</svg>

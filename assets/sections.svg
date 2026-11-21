@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="300" viewBox="0 0 1200 300" role="img" aria-label="Three sections: M mineral, O plant and animal, P processes">
+<title>Three sections: M mineral, O plant and animal, P processes</title>
+<rect x="15" y="15" width="375" height="270" rx="16" fill="#F5EEE1" stroke="#D9CDB9" stroke-width="2"/>
+<path d="M15,31 a16,16 0 0 1 16,-16 h343 a16,16 0 0 1 16,16 v9 h-375 Z" fill="#1F5FA8"/>
+<g transform="translate(77,112) scale(1.25)" fill="none" stroke="#1F5FA8" stroke-width="3" stroke-linejoin="round"><polygon points="0,-28 22,-12 15,24 -15,24 -22,-12" fill="#1F5FA8" fill-opacity="0.15"/><polyline points="-22,-12 -7,-6 0,-28 7,-6 22,-12"/><polyline points="-7,-6 -15,24"/><polyline points="7,-6 15,24"/><line x1="-7" y1="-6" x2="7" y2="-6"/></g>
+<text x="345" y="132" font-family="Georgia, 'Times New Roman', Times, serif" font-size="64" fill="#1F5FA8" text-anchor="end" font-weight="normal" font-style="normal" letter-spacing="0">M</text>
+<text x="45" y="192" font-family="Georgia, 'Times New Roman', Times, serif" font-size="21" fill="#2A2420" text-anchor="start" font-weight="normal" font-style="normal" letter-spacing="0">Mineral materials</text>
+<text x="45" y="218" font-family="Georgia, 'Times New Roman', Times, serif" font-size="15" fill="#1F5FA8" text-anchor="start" font-weight="bold" font-style="normal" letter-spacing="0">16 entries</text>
+<text x="45" y="246" font-family="Georgia, 'Times New Roman', Times, serif" font-size="15" fill="#6E6258" text-anchor="start" font-weight="normal" font-style="italic" letter-spacing="0">Earths, pigments, salts,</text>
+<text x="45" y="267" font-family="Georgia, 'Times New Roman', Times, serif" font-size="15" fill="#6E6258" text-anchor="start" font-weight="normal" font-style="italic" letter-spacing="0">alloys, binders.</text>
+<rect x="410" y="15" width="375" height="270" rx="16" fill="#F5EEE1" stroke="#D9CDB9" stroke-width="2"/>
+<path d="M410,31 a16,16 0 0 1 16,-16 h343 a16,16 0 0 1 16,16 v9 h-375 Z" fill="#6B2D5C"/>
+<g transform="translate(472,112) scale(1.25)" fill="none" stroke="#6B2D5C" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="M0,22 C-26,6 -20,-22 0,-30 C20,-22 26,6 0,22 Z" fill="#6B2D5C" fill-opacity="0.15"/><path d="M0,30 L0,-22"/><path d="M0,-4 L-10,-12"/><path d="M0,8 L11,0"/></g>
+<text x="740" y="132" font-family="Georgia, 'Times New Roman', Times, serif" font-size="64" fill="#6B2D5C" text-anchor="end" font-weight="normal" font-style="normal" letter-spacing="0">O</text>
+<text x="440" y="192" font-family="Georgia, 'Times New Roman', Times, serif" font-size="21" fill="#2A2420" text-anchor="start" font-weight="normal" font-style="normal" letter-spacing="0">Plant and animal materials</text>
+<text x="440" y="218" font-family="Georgia, 'Times New Roman', Times, serif" font-size="15" fill="#6B2D5C" text-anchor="start" font-weight="bold" font-style="normal" letter-spacing="0">4 entries</text>
+<text x="440" y="246" font-family="Georgia, 'Times New Roman', Times, serif" font-size="15" fill="#6E6258" text-anchor="start" font-weight="normal" font-style="italic" letter-spacing="0">Plants, resins, dyes, foods,</text>
+<text x="440" y="267" font-family="Georgia, 'Times New Roman', Times, serif" font-size="15" fill="#6E6258" text-anchor="start" font-weight="normal" font-style="italic" letter-spacing="0">and their cultivated varieties.</text>
+<rect x="805" y="15" width="375" height="270" rx="16" fill="#F5EEE1" stroke="#D9CDB9" stroke-width="2"/>
+<path d="M805,31 a16,16 0 0 1 16,-16 h343 a16,16 0 0 1 16,16 v9 h-375 Z" fill="#9C4A1A"/>
+<g transform="translate(867,112) scale(1.25)" fill="none" stroke="#9C4A1A" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"><path d="M-7,-28 L7,-28 M-5,-28 L-5,-8 L-23,24 L23,24 L5,-8 L5,-28" /><path d="M-15,10 L15,10 L23,24 L-23,24 Z" fill="#9C4A1A" fill-opacity="0.3" stroke="none"/><path d="M-12,-14 q-6,-8 0,-14 M12,-16 q6,-8 0,-14" stroke-width="2.2"/></g>
+<text x="1135" y="132" font-family="Georgia, 'Times New Roman', Times, serif" font-size="64" fill="#9C4A1A" text-anchor="end" font-weight="normal" font-style="normal" letter-spacing="0">P</text>
+<text x="835" y="192" font-family="Georgia, 'Times New Roman', Times, serif" font-size="21" fill="#2A2420" text-anchor="start" font-weight="normal" font-style="normal" letter-spacing="0">Methods and processes</text>
+<text x="835" y="218" font-family="Georgia, 'Times New Roman', Times, serif" font-size="15" fill="#9C4A1A" text-anchor="start" font-weight="bold" font-style="normal" letter-spacing="0">8 entries</text>
+<text x="835" y="246" font-family="Georgia, 'Times New Roman', Times, serif" font-size="15" fill="#6E6258" text-anchor="start" font-weight="normal" font-style="italic" letter-spacing="0">Recipes, workshop operations,</text>
+<text x="835" y="267" font-family="Georgia, 'Times New Roman', Times, serif" font-size="15" fill="#6E6258" text-anchor="start" font-weight="normal" font-style="italic" letter-spacing="0">firing and transformation.</text>
+
+</svg>
