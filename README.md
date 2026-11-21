@@ -4,6 +4,8 @@
 
 # The Apolothecary
 
+[<img src="assets/badges/doi.svg" alt="DOI 10.5281/zenodo.24422717" height="20">](https://doi.org/10.5281/zenodo.24422717)
+
 **A dictionary of lost materials of antiquity. Version 0.3 (21 November 2026).**
 Based on the French draft *Dictionnaire des matériaux de l'Antiquité*. Every entry should be revisited against the critical editions and completed with laboratory data.
 

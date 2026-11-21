@@ -292,6 +292,19 @@ def badge(level):
     return svg(w, h, b, f"Certainty: {label}")
 
 
+def doi_badge(doi):
+    left, right = "DOI", doi
+    lw = 14 + int(len(left) * 8)
+    rw = 14 + int(len(right) * 7.0)
+    w, h = lw + rw, 20
+    b = (f'<rect x="0" y="0" width="{w}" height="{h}" rx="4" fill="{BLUE}"/>\n'
+         f'<rect x="0" y="0" width="{lw}" height="{h}" rx="4" fill="{INK}"/>\n'
+         f'<rect x="{lw - 4}" y="0" width="4" height="{h}" fill="{INK}"/>\n')
+    b += text(lw / 2, 14.5, left, size=12, fill="#FFFFFF", anchor="middle", weight="bold")
+    b += text(lw + rw / 2, 14.5, right, size=12, fill="#FFFFFF", anchor="middle")
+    return svg(w, h, b, f"DOI {doi}")
+
+
 def icon_file(kind):
     fn, col = ICONS[kind]
     return svg(64, 64, fn(32, 32, col, 0.95), f"{kind} icon")
@@ -308,6 +321,7 @@ def main():
     }
     for level in CERTAINTY:
         files[f"badges/{level}.svg"] = badge(level)
+    files["badges/doi.svg"] = doi_badge("10.5281/zenodo.24422717")
     for kind in ICONS:
         files[f"icons/{kind}.svg"] = icon_file(kind)
     for name, content in files.items():
