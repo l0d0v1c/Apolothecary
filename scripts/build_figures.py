@@ -150,9 +150,9 @@ def banner():
 # ---------------------------------------------------------------- what is lost
 
 def venn():
-    w, h = 1200, 640
-    r = 170
-    a, bb, c = (510, 260), (690, 260), (600, 416)
+    w, h = 1200, 740
+    r = 200
+    a, bb, c = (510, 320), (690, 320), (600, 476)
     b = frame(w, h)
     b += text(600, 58, "What is lost?", size=30, anchor="middle")
     b += text(600, 88, "A material is lost when at least one of three things is missing.",
@@ -160,16 +160,15 @@ def venn():
     for (cx, cy), col in ((a, BLUE), (bb, OCHRE), (c, TERRA)):
         b += (f'<circle cx="{cx}" cy="{cy}" r="{r}" fill="{col}" fill-opacity="0.10" '
               f'stroke="{col}" stroke-width="2.5"/>\n')
-    # circle titles
-    b += text(318, 150, "Identity", size=26, fill=BLUE, anchor="end")
-    b += text(318, 174, "what it was", size=16, fill=MUTED, anchor="end", style="italic")
-    b += text(882, 150, "Source", size=26, fill=OCHRE)
-    b += text(882, 174, "which deposit or workshop", size=16, fill=MUTED, style="italic")
-    b += text(418, 560, "Recipe", size=26, fill=TERRA, anchor="end")
-    b += text(418, 584, "how it was made or processed", size=16, fill=MUTED,
+    b += text(300, 180, "Identity", size=26, fill=BLUE, anchor="end")
+    b += text(300, 204, "what it was", size=16, fill=MUTED, anchor="end", style="italic")
+    b += text(900, 180, "Source", size=26, fill=OCHRE)
+    b += text(900, 204, "which deposit or workshop", size=16, fill=MUTED, style="italic")
+    b += text(470, 650, "Recipe", size=26, fill=TERRA, anchor="end")
+    b += text(470, 674, "how it was made or processed", size=16, fill=MUTED,
               anchor="end", style="italic")
 
-    def region(x, y, items, size=15, step=7):
+    def region(x, y, items, size=15, step=6):
         out = ""
         for i, s in enumerate(items):
             code, _, name = s.partition(" ") if s[:2] in ("M-", "O-", "P-") else ("", "", s)
@@ -178,17 +177,20 @@ def venn():
                     f'<tspan font-weight="bold">{code}</tspan> {name}</text>\n')
         return out
 
-    b += region(415, 200, ["M-07 alum", "M-11 cadmia", "M-13 verdigris", "M-14 sandaraca"])
-    b += region(785, 255, ["M-10 natron"])
-    b += region(600, 500, ["M-02 pozzolana", "M-03 Egyptian blue", "O-04 purple"])
-    b += region(600, 165, ["M-06 Samian", "earth"])
-    b += region(507, 356, ["M-05 Lemnian", "M-08 misy", "M-09 chrysocolla", "O-03 balsam"],
+    # Regions follow the "What is lost" field of each M and O entry.
+    b += text(400, 300, "none", size=15, fill=MUTED, anchor="middle", style="italic")
+    b += region(820, 300, ["M-10 natron"])
+    b += region(600, 584, ["M-02 pozzolana", "M-03 Egyptian blue", "O-04 purple"])
+    b += region(600, 186, ["M-04 miltos", "M-06 Samian", "M-11 cadmia", "M-14 sandaraca"],
                 size=14, step=5)
-    b += region(695, 380, ["M-01 Cimolian", "M-15 asbestos"], size=14)
-    b += region(600, 300, ["O-01", "silphium"], size=15)
-    b += text(1160, 616, "Entries placed by their “What is lost” field. Entries with other gaps "
-              "and processes (P) are not shown.", size=13, fill=MUTED, anchor="end",
-              style="italic")
+    b += region(472, 418, ["M-05 Lemnian", "M-07 alum", "M-09 chrysocolla", "M-13 verdigris"],
+                size=14, step=5)
+    b += region(728, 430, ["M-12 electrum", "O-02 date"], size=14, step=5)
+    b += region(600, 318, ["M-01 Cimolian", "M-08 misy", "M-15 asbestos", "M-16 Chian",
+                           "O-01 silphium", "O-03 balsam"], size=14, step=5)
+    b += text(1160, 716, "M and O entries placed by their “What is lost” field. Processes (P) "
+              "are lost by their steps and parameters and are not shown.", size=13, fill=MUTED,
+              anchor="end", style="italic")
     return svg(w, h, b, "What is lost: identity, source, recipe")
 
 
